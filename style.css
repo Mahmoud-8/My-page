@@ -1,7 +1,16 @@
+body::before{
+    display: block;
+    height: 90px;
+    content: '';
+}
+
 textarea{
     resize: none;
 }
 
+.gmap_canvas{
+    border-radius: 20px;
+}
 
  @media screen and (min-width:768px )  {
     .Input-Email{
